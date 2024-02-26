@@ -39,7 +39,7 @@ _diamond_run() {
 }
 
 _diamond_emit() {
-  local emit_options=('--tokens' '--ast' '--ast-with-types' '--ast-with-concrete-types' '--llvm-ir' '--obj')
+  local emit_options=('--tokens' '--ast' '--ast-with-types' '--ast-with-concrete-types' '--llvm-ir' '--obj' '--asm')
   
     _arguments \
         '1:options:->options' \
